@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "cy:test": "npx cypress run --env allure=true &&  allure serve ./allure-results/"
+  }
+}

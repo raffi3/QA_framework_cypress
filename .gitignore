@@ -7,6 +7,9 @@
 node_modules/
 dist/
 screenshots/
+videos/
+allure-results/
+
 
 # Compiled Java class files
 *.class

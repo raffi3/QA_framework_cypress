@@ -22,6 +22,7 @@ cd /your/project/path
 npm install cypress --save-dev
 npm install -D cypress-xpath
 npm install faker --save-dev
+npm install -D @shelex/cypress-allure-plugin
 ```
 Optional: add cypress execution dir (`./node_modules/.bin/`) to the `PATH` variable.
 > More info here: https://docs.cypress.io/guides/getting-started/installing-cypress

@@ -18,8 +18,9 @@ import './commands'
 import {setUp} from "../pages/SetUp";
 
 // Alternatively you can use CommonJS syntax:
-require('cypress-xpath')
+require('cypress-xpath');
 cy.faker = require('faker');
+require('@shelex/cypress-allure-plugin');
 
 before('Navigate to PetClinic app', () => {
     // const env_ = Cypress.env('local')

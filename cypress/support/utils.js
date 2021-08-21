@@ -14,7 +14,6 @@ function generateRandomDate() {
     return `200${getRandomInt(9)}-0${getRandomIntInRange(1,9)}-${getRandomIntInRange(10,31)}`
 }
 
-
 export const data_generator = {
     "FIRST_NAME": cy.faker.name.firstName,
     "LAST_NAME": cy.faker.name.lastName,

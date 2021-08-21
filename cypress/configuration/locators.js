@@ -1,5 +1,3 @@
-import {getRandomIntInRange} from "../support/utils";
-
 /** File Description: Locators are separated with modules (Owners, Pets, Veterinarians) for easy management,
 * With the code increase they can be separated into multiple files,
 * "value" parameters are being generated during test run in relevant Page Object Models,

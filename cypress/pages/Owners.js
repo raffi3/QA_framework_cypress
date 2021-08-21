@@ -1,6 +1,6 @@
 import {BaseMethods} from './BaseMethods.js'
 import * as locators from "../configuration/locators"
-import {data_generator, getRandomInt, getRandomIntInRange} from "../support/utils"
+import {getRandomIntInRange} from "../support/utils"
 import {CommonMethods} from "./Common";
 
 

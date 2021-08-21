@@ -1,7 +1,5 @@
-import * as locators from "../configuration/locators";
-
 export class BaseMethods{
-    static get_element_position_in_html(xpath_) { //TODO call
+    static get_element_position_in_html(xpath_) {
         return cy.xpath(xpath_).invoke('index')
     }
     static concat_object_values(obj, values_list = []) {
