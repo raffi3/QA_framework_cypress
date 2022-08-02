@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: docker run -it -v $PWD:/e2e -w /e2e cypress/included:9.7.0 # docker build . --file Dockerfile --tag my-image-name:$(date +%s)
